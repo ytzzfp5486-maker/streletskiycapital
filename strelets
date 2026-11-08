@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ТЦ «Стрелецкий Капитал» — аренда торговых помещений в Новополоцке</title>
+  <meta name="description" content="Торговый центр «Стрелецкий Капитал» в Новополоцке: 16 000 м², более 200 торговых объектов, бесплатная парковка на 300 мест. Аренда помещений от 15 м² и торговых островков.">
+  <meta name="keywords" content="Стрелецкий Капитал, торговый центр Новополоцк, аренда помещения Новополоцк, аренда магазина Новополоцк, торговый островок">
+  <meta name="theme-color" content="#0b1220">
+
+  <meta property="og:title" content="ТЦ «Стрелецкий Капитал» — Новополоцк">
+  <meta property="og:description" content="Крупный торговый центр в Новополоцке. Аренда помещений от 15 м², торговых островков, бесплатная парковка на 300 автомобилей.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/3912ad17-ee1f-5bbf-ad18-d15252d0fd24/c778e508-523b-56a5-b4d2-2b75b6cf7199.jpg">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%232563eb'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='27' font-weight='bold' fill='white' text-anchor='middle'%3EСК%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ShoppingCenter",
+    "name": "Торговый центр «Стрелецкий Капитал»",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Молодёжная, 166А",
+      "addressLocality": "Новополоцк",
+      "addressCountry": "BY"
+    },
+    "telephone": "+375296842765",
+    "openingHours": "Mo-Su 09:00-19:00",
+    "image": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/3912ad17-ee1f-5bbf-ad18-d15252d0fd24/c778e508-523b-56a5-b4d2-2b75b6cf7199.jpg",
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Бесплатная парковка", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Парковка на 300 мест", "value": true }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --ink: #0f172a;
+      --muted: #5b6472;
+      --line: #e5e8ee;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --accent-soft: #eaf1ff;
+      --dark: #0b1220;
+      --radius: 20px;
+      --radius-sm: 14px;
+      --shadow: 0 18px 45px rgba(15, 23, 42, .08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+
+    a { color: inherit; }
+
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(246, 247, 249, .88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 14px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      color: #fff;
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: -.04em;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+    }
+
+    .brand-text strong {
+      font-size: 17px;
+      letter-spacing: -.03em;
+    }
+
+    .brand-text span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .menu a {
+      padding: 10px 15px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: .2s;
+    }
+
+    .menu a:hover,
+    .menu a.active {
+      color: var(--ink);
+      background: #e9ecf2;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .phone-link {
+      color: var(--ink);
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 13px 22px;
+      border: 0;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      font: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: .2s;
+    }
+
+    .btn:hover {
+      background: var(--accent-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-light {
+      background: #fff;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+
+    .btn-light:hover {
+      background: #f1f4f8;
+      color: var(--accent);
+    }
+
+    .burger {
+      display: none;
+      width: 46px;
+      height: 46px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 80px 0 75px;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: auto -12% 45% auto;
+      width: 640px;
+      height: 640px;
+      background: radial-gradient(circle, rgba(37, 99, 235, .17), transparent 65%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 45px;
+      align-items: center;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 9px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, .15);
+    }
+
+    h1 {
+      margin: 24px 0 20px;
+      font-size: clamp(40px, 6.4vw, 72px);
+      line-height: 1.02;
+      letter-spacing: -.05em;
+      font-weight: 800;
+    }
+
+    .accent-text {
+      background: linear-gradient(90deg, var(--accent), #7c3aed);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lead {
+      max-width: 610px;
+      margin: 0 0 30px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      margin-bottom: 18px;
+    }
+
+    .hero-card-top strong { font-size: 17px; }
+
+    .hero-card-top span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .metric {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .metric div {
+      padding: 17px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: #f8fafc;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 25px;
+      letter-spacing: -.03em;
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .section { padding: 85px 0; }
+
+    .section-head {
+      max-width: 780px;
+      margin-bottom: 42px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 13px 0 15px;
+      font-size: clamp(30px, 4.4vw, 46px);
+      line-height: 1.1;
+      letter-spacing: -.04em;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .cards-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      transition: .25s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #cdd6e4;
+    }
+
+    .icon {
+      display: grid;
+      place-items: center;
+      width: 50px;
+      height: 50px;
+      margin-bottom: 20px;
+      border-radius: 16px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 23px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      letter-spacing: -.02em;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .dark-section {
+      background: var(--dark);
+      color: #fff;
+    }
+
+    .dark-section .section-head p,
+    .dark-section .card p {
+      color: #a7b0bf;
+    }
+
+    .dark-section .card {
+      background: rgba(255, 255, 255, .05);
+      border-color: rgba(255, 255, 255, .09);
+      box-shadow: none;
+    }
+
+    .dark-section .icon {
+      background: rgba(255, 255, 255, .1);
+      color: #93c5fd;
+    }
+
+    .shop-tools {
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .shop-tools input,
+    .shop-tools select {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .07);
+      color: #fff;
+      font: inherit;
+      font-size: 15px;
+      outline: none;
+    }
+
+    .shop-tools input::placeholder { color: #8b95a5; }
+
+    .shop-tools input:focus,
+    .shop-tools select:focus {
+      border-color: #60a5fa;
+      background: rgba(255, 255, 255, .1);
+    }
+
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .shop-card {
+      padding: 22px;
+      background: rgba(255, 255, 255, .05);
+      border: 1px solid rgba(255, 255, 255, .1);
+      border-radius: var(--radius);
+      transition: .2s;
+    }
+
+    .shop-card:hover {
+      background: rgba(255, 255, 255, .09);
+      transform: translateY(-3px);
+    }
+
+    .shop-card h3 {
+      margin: 0 0 6px;
+      font-size: 18px;
+    }
+
+    .shop-card p {
+      margin: 0;
+      color: #a7b0bf;
+      font-size: 14px;
+    }
+
+    .shop-category {
+      display: inline-block;
+      margin-top: 13px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(37, 99, 235, .2);
+      color: #bfdbfe;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .empty-result {
+      display: none;
+      padding: 35px;
+      text-align: center;
+      color: #a7b0bf;
+      border: 1px dashed rgba(255, 255, 255, .2);
+      border-radius: var(--radius);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      transition: .4s;
+    }
+
+    .gallery-item:hover img { transform: scale(1.05); }
+
+    .gallery-caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 40px 20px 18px;
+      color: #fff;
+      font-weight: 700;
+      background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .72));
+    }
+
+    .rent-layout {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .rent-info { display: grid; gap: 16px; }
+
+    .rent-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .rent-card h3 {
+      margin: 0 0 10px;
+      font-size: 21px;
+      letter-spacing: -.02em;
+    }
+
+    .rent-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .rent-card ul {
+      margin: 14px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .rent-card li + li { margin-top: 7px; }
+
+    .tariffs { display: grid; gap: 14px; }
+
+    .tariff {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .tariff-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      margin-bottom: 14px;
+    }
+
+    .tariff-head h3 {
+      margin: 0;
+      font-size: 19px;
+      letter-spacing: -.02em;
+    }
+
+    .tariff-head span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .tariff-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .tariff-item {
+      padding: 13px;
+      border-radius: var(--radius-sm);
+      background: #f8fafc;
+      border: 1px solid var(--line);
+      text-align: center;
+    }
+
+    .tariff-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .tariff-item strong {
+      font-size: 18px;
+      letter-spacing: -.02em;
+    }
+
+    .rent-note {
+      margin-top: 16px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      border-radius: 14px;
+      background: var(--accent-soft);
+      color: #243b5e;
+      font-size: 15px;
+    }
+
+    .map-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .map-frame {
+      min-height: 430px;
+      width: 100%;
+      border: 0;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .contact-list { display: grid; gap: 12px; }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 18px 20px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow);
+      text-decoration: none;
+      transition: .2s;
+    }
+
+    .contact-item:hover {
+      transform: translateX(4px);
+      border-color: #cdd6e4;
+    }
+
+    .contact-icon {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      flex: 0 0 auto;
+      border-radius: 13px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 19px;
+    }
+
+    .contact-item strong {
+      display: block;
+      font-size: 15px;
+    }
+
+    .contact-item span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .form-section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 30px;
+      box-shadow: var(--shadow);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 13px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 13px 15px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #f8fafc;
+      color: var(--ink);
+      font: inherit;
+      font-size: 15px;
+      outline: none;
+      transition: .2s;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--accent);
+      background: #fff;
+      box-shadow: 0 0 0 4px rgba(37, 99, 235, .11);
+    }
+
+    textarea {
+      min-height: 115px;
+      resize: vertical;
+    }
+
+    .full { grid-column: 1 / -1; }
+
+    .form-note {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .success-message {
+      display: none;
+      margin-top: 15px;
+      padding: 15px 18px;
+      border-radius: 13px;
+      background: #dcfce7;
+      color: #166534;
+      font-weight: 600;
+    }
+
+    .faq {
+      display: grid;
+      gap: 12px;
+      max-width: 880px;
+    }
+
+    details {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 18px 22px;
+      box-shadow: var(--shadow);
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 16px;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      float: right;
+      color: var(--accent);
+      font-size: 21px;
+      font-weight: 700;
+    }
+
+    details[open] summary::after { content: "–"; }
+
+    details p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, #101a2e, #1e293b);
+      color: #fff;
+      border-radius: 28px;
+      padding: 55px 45px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 35px;
+      box-shadow: var(--shadow);
+    }
+
+    .cta h2 {
+      margin: 0 0 12px;
+      color: #fff;
+    }
+
+    .cta p {
+      margin: 0;
+      color: #b7c1d1;
+      max-width: 560px;
+    }
+
+    footer {
+      padding: 38px 0;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .footer-links a:hover { color: var(--accent); }
+
+    @media (max-width: 1020px) {
+      .hero-grid,
+      .rent-layout,
+      .map-section { grid-template-columns: 1fr; }
+
+      .cards-3,
+      .shop-grid,
+      .gallery { grid-template-columns: 1fr; }
+
+      .shop-tools { grid-template-columns: 1fr; }
+
+      .tariff-grid { grid-template-columns: repeat(2, 1fr); }
+
+      .cta { flex-direction: column; align-items: flex-start; }
+    }
+
+    @media (max-width: 760px) {
+      .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 12px 20px 18px;
+        background: rgba(246, 247, 249, .98);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .menu.open { display: flex; }
+
+      .burger { display: block; }
+
+      .header-actions .btn { display: none; }
+
+      .hero { padding: 55px 0 45px; }
+
+      .section { padding: 60px 0; }
+
+      .form-grid { grid-template-columns: 1fr; }
+
+      .form-grid .full { grid-column: auto; }
+
+      .metric { grid-template-columns: 1fr; }
+
+      .cta { padding: 35px 25px; }
+    }
+  </style>
+</head>
+
+<body id="top">
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <span class="brand-mark">СК</span>
+      <span class="brand-text">
+        <strong>Стрелецкий Капитал</strong>
+        <span>Торговый центр · Новополоцк</span>
+      </span>
+    </a>
+
+    <nav class="menu" id="menu">
+      <a href="#about">О центре</a>
+      <a href="#shops">Магазины</a>
+      <a href="#gallery">Фотогалерея</a>
+      <a href="#rent">Аренда</a>
+      <a href="#location">Как добраться</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="phone-link" href="tel:+375296842765">+375 (29) 684-27-65</a>
+      <a class="btn" href="#apply">Оставить заявку</a>
+      <button class="burger" id="burger" aria-label="Открыть меню">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="pill"><span class="dot"></span> Открыт ежедневно с 9:00 до 19:00</div>
+
+        <h1>
+          Торговый центр<br>
+          <span class="accent-text">«Стрелецкий Капитал»</span>
+        </h1>
+
+        <p class="lead">
+          Крупный торговый центр в центре Новополоцка: 16 000 м², два здания и два этажа,
+          более 200 торговых объектов, известные сети и бесплатная парковка на 300 автомобилей.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn" href="#rent">Условия аренды</a>
+          <a class="btn btn-light" href="#shops">Магазины центра</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img class="hero-image" src="https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/3912ad17-ee1f-5bbf-ad18-d15252d0fd24/c778e508-523b-56a5-b4d2-2b75b6cf7199.jpg" alt="Торговый центр «Стрелецкий Капитал» в Новополоцке">
+
+        <div class="hero-card-top">
+          <strong>ТЦ в цифрах</strong>
+          <span>Новополоцк, ул. Молодёжная, 166А</span>
+        </div>
+
+        <div class="metric">
+          <div><strong>16 000 м²</strong><span>общая площадь</span></div>
+          <div><strong>200+</strong><span>торговых объектов</span></div>
+          <div><strong>2</strong><span>здания и этажа</span></div>
+          <div><strong>300</strong><span>мест на парковке</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">О торговом центре</div>
+        <h2>Крупный торговый центр в центре Новополоцка</h2>
+        <p>
+          «Стрелецкий Капитал» расположен на центральной улице города и объединяет магазины одежды,
+          обуви, мебели, бытовой техники, косметики, спортивных товаров, банки и сервисные услуги.
+        </p>
+      </div>
+
+      <div class="cards-3">
+        <article class="card">
+          <div class="icon">📍</div>
+          <h3>Выгодная локация</h3>
+          <p>ТЦ находится по адресу: Новополоцк, ул. Молодёжная, 166А — на центральной улице города.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🏬</div>
+          <h3>Пространство для торговли</h3>
+          <p>Общая площадь составляет 16 000 м². Торговые объекты размещены в двух зданиях на двух этажах.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🅿️</div>
+          <h3>Бесплатная парковка</h3>
+          <p>Для посетителей предусмотрена бесплатная парковка вместимостью до 300 автомобилей.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="shops">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Магазины и услуги</div>
+        <h2>Найдите нужный магазин</h2>
+        <p>
+          В центре представлены республиканские торговые сети, фирменные магазины мебели, банки,
+          салон связи и магазины товаров для спорта и отдыха.
+        </p>
+      </div>
+
+      <div class="shop-tools">
+        <input id="shopSearch" type="search" placeholder="Поиск магазина или услуги…" aria-label="Поиск магазина">
+        <select id="shopFilter" aria-label="Фильтр по категории">
+          <option value="all">Все категории</option>
+          <option value="beauty">Красота и химия</option>
+          <option value="furniture">Мебель и техника</option>
+          <option value="clothes">Одежда и спорт</option>
+          <option value="services">Банки и связь</option>
+        </select>
+      </div>
+
+      <div class="shop-grid" id="shopGrid"></div>
+      <div class="empty-result" id="emptyResult">По вашему запросу магазины не найдены.</div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Фотогалерея</div>
+        <h2>Посмотрите торговый центр</h2>
+        <p>Фотографии торгового центра, торговых галерей и объектов, доступных для аренды.</p>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img src="https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/3912ad17-ee1f-5bbf-ad18-d15252d0fd24/c778e508-523b-56a5-b4d2-2b75b6cf7199.jpg" alt="Торговый центр «Стрелецкий Капитал» в Новополоцке" loading="lazy">
+          <figcaption class="gallery-caption">Торговый центр «Стрелецкий Капитал»</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://st.perplexity.ai/estatic/0b226c450798410ac541646c86ec31afd840e5beab817a5d84fa821e7db61981ec84c3b4a3f072a7a2e1899c9fb06c6e65619d73dd10eedd8aa9c12709edcf457b44aeafa92b6daa039cbc4fa024d218d04d21591aa88606c32348bbb577d8cffd8bbbf069f8e447f434d2f46594aa78" alt="Торговые галереи ТЦ «Стрелецкий Капитал»" loading="lazy">
+          <figcaption class="gallery-caption">Торговые галереи</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://st.perplexity.ai/estatic/0b226c450798410ac541646c86ec31afd840e5beab817a5d84fa821e7db61981ec84c3b4a3f072a7a2e1899c9fb06c6e40756b7acb98f72c174ebb49bcf0104a88721e1d7a6e14c31e461d004a9ab57ea25ef900f141ed83c59372e67104df62e9bba73601b2b3cc5297f58d3b5f5261" alt="Магазины и торговые объекты ТЦ «Стрелецкий Капитал»" loading="lazy">
+          <figcaption class="gallery-caption">Магазины и торговые объекты</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="rent">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Аренда помещений</div>
+        <h2>Открыты возможности для вашего бизнеса</h2>
+        <p>
+          В ТЦ доступны стационарные помещения площадью от 15 м², а также передвижные торговые островки.
+          Тарифы указаны с НДС за 1 м².
+        </p>
+      </div>
+
+      <div class="rent-layout">
+        <div class="rent-info">
+          <article class="rent-card">
+            <h3>Что входит в аренду</h3>
+            <p>Помимо арендной платы арендаторы оплачивают только расходы на электроэнергию и теплоэнергию.</p>
+            <ul>
+              <li>Охрана всех объектов осуществляется бесплатно.</li>
+              <li>Доступны стационарные помещения от 15 м².</li>
+              <li>Возможна аренда передвижного торгового островка.</li>
+              <li>Тариф зависит от площади, этажа и срока оплаты.</li>
+            </ul>
+          </article>
+
+          <article class="rent-card">
+            <h3>Форматы размещения</h3>
+            <p>Центр подходит как для крупных магазинов, так и для небольших торговых точек и островков.</p>
+            <ul>
+              <li>Магазины одежды, обуви и аксессуаров.</li>
+              <li>Мебель, товары для дома и бытовая техника.</li>
+              <li>Косметика, парфюмерия и бытовая химия.</li>
+              <li>Спортивные товары, услуги, банки и связь.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="tariffs">
+          <article class="tariff">
+            <div class="tariff-head">
+              <h3>1 этаж · до 35 м²</h3>
+              <span>BYN / м² с НДС</span>
+            </div>
+            <div class="tariff-grid">
+              <div class="tariff-item"><span>За год</span><strong>12</strong></div>
+              <div class="tariff-item"><span>За полугодие</span><strong>13</strong></div>
+              <div class="tariff-item"><span>Поквартально</span><strong>14</strong></div>
+              <div class="tariff-item"><span>Ежемесячно</span><strong>15</strong></div>
+            </div>
+          </article>
+
+          <article class="tariff">
+            <div class="tariff-head">
+              <h3>1 этаж · более 35 м²</h3>
+              <span>BYN / м² с НДС</span>
+            </div>
+            <div class="tariff-grid">
+              <div class="tariff-item"><span>За год</span><strong>10</strong></div>
+              <div class="tariff-item"><span>За полугодие</span><strong>11</strong></div>
+              <div class="tariff-item"><span>Поквартально</span><strong>12</strong></div>
+              <div class="tariff-item"><span>Ежемесячно</span><strong>13</strong></div>
+            </div>
+          </article>
+
+          <article class="tariff">
+            <div class="tariff-head">
+              <h3>2 этаж</h3>
+              <span>BYN / м² с НДС</span>
+            </div>
+            <div class="tariff-grid">
+              <div class="tariff-item"><span>За год</span><strong>6</strong></div>
+              <div class="tariff-item"><span>За полугодие</span><strong>7</strong></div>
+              <div class="tariff-item"><span>Поквартально</span><strong>8</strong></div>
+              <div class="tariff-item"><span>Ежемесячно</span><strong>9</strong></div>
+            </div>
+          </article>
+
+          <div class="rent-note">
+            <strong>Важно:</strong> итоговая стоимость рассчитывается по формуле «тариф × коэффициент спроса × коэффициент месторасположения». Для аптек условия рассчитываются отдельно.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="apply">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Заявка на аренду</div>
+        <h2>Хотите открыть бизнес в ТЦ?</h2>
+        <p>Оставьте заявку — администратор свяжется с вами, расскажет о доступных помещениях и поможет рассчитать условия.</p>
+      </div>
+
+      <form class="form-section" id="rentForm">
+        <div class="form-grid">
+          <div>
+            <label for="name">Ваше имя *</label>
+            <input id="name" name="name" type="text" placeholder="Иван Иванов" required>
+          </div>
+
+          <div>
+            <label for="phone">Телефон *</label>
+            <input id="phone" name="phone" type="tel" placeholder="+375 (__) ___-__-__" required>
+          </div>
+
+          <div>
+            <label for="area">Желаемая площадь</label>
+            <select id="area" name="area">
+              <option>До 15 м²</option>
+              <option>15–35 м²</option>
+              <option>Более 35 м²</option>
+              <option>Торговый островок</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="floor">Предпочтительный этаж</label>
+            <select id="floor" name="floor">
+              <option>1 этаж</option>
+              <option>2 этаж</option>
+              <option>Любой вариант</option>
+            </select>
+          </div>
+
+          <div class="full">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" placeholder="Расскажите о вашем бизнесе, товарах или услугах"></textarea>
+          </div>
+
+          <div class="full">
+            <button class="btn" type="submit">Отправить заявку</button>
+            <p class="form-note">
+              Нажимая кнопку, вы соглашаетесь на обработку указанных контактных данных для связи по вопросу аренды.
+            </p>
+            <div class="success-message" id="successMessage">
+              Заявка подготовлена. Откроется почтовое приложение для её отправки.
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" id="location">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Расположение</div>
+        <h2>Как добраться до ТЦ</h2>
+        <p>Торговый центр расположен по адресу: Новополоцк, ул. Молодёжная, 166А. Для посетителей доступна бесплатная парковка.</p>
+      </div>
+
+      <div class="map-section">
+        <iframe
+          class="map-frame"
+          title="Карта: Торговый центр Стрелецкий Капитал"
+          src="https://yandex.by/map-widget/v1/?text=%D0%9D%D0%BE%D0%B2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D1%86%D0%BA%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9C%D0%BE%D0%BB%D0%BE%D0%B4%D1%91%D0%B6%D0%BD%D0%B0%D1%8F%2C%20166%D0%90&z=16"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+
+        <div class="contact-list">
+          <a class="contact-item" href="tel:+375296842765">
+            <span class="contact-icon">📞</span>
+            <span>
+              <strong>Администратор ТЦ</strong>
+              <span>Марк Залманович · +375 (29) 684-27-65</span>
+            </span>
+          </a>
+
+          <a class="contact-item" href="tel:+375296838001">
+            <span class="contact-icon">🧾</span>
+            <span>
+              <strong>Бухгалтер по аренде</strong>
+              <span>Ольга Евгеньевна · +375 (29) 683-80-01</span>
+            </span>
+          </a>
+
+          <a class="contact-item" href="tel:+375336455505">
+            <span class="contact-icon">🏢</span>
+            <span>
+              <strong>Временный внешний управляющий</strong>
+              <span>Дмитрий Юрьевич Луковников · +375 (33) 645-55-05</span>
+            </span>
+          </a>
+
+          <a class="contact-item" href="https://yandex.by/maps/?text=Новополоцк, улица Молодёжная, 166А" target="_blank" rel="noopener">
+            <span class="contact-icon">🗺️</span>
+            <span>
+              <strong>Адрес</strong>
+              <span>Новополоцк, ул. Молодёжная, 166А</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Контакты</div>
+        <h2>Свяжитесь с администрацией</h2>
+        <p>Администраторы готовы ответить на вопросы о доступных помещениях, условиях аренды и размещении торговых островков.</p>
+      </div>
+
+      <div class="cards-3">
+        <article class="card">
+          <div class="icon">📞</div>
+          <h3>Администратор ТЦ</h3>
+          <p>Марк Залманович<br><a href="tel:+375296842765">+375 (29) 684-27-65</a></p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🧾</div>
+          <h3>Бухгалтер по аренде</h3>
+          <p>Ольга Евгеньевна<br><a href="tel:+375296838001">+375 (29) 683-80-01</a></p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🏢</div>
+          <h3>Временный внешний управляющий</h3>
+          <p>Дмитрий Юрьевич Луковников<br><a href="tel:+375336455505">+375 (33) 645-55-05</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Частые вопросы</div>
+        <h2>Ответы для арендаторов</h2>
+        <p>Коротко о площадях, тарифах, дополнительных расходах и формате размещения.</p>
+      </div>
+
+      <div class="faq">
+        <details open>
+          <summary>Какие помещения можно арендовать?</summary>
+          <p>Доступны стационарные объекты площадью от 15 м² и более, а также передвижные торговые островки.</p>
+        </details>
+
+        <details>
+          <summary>Как формируется итоговая стоимость аренды?</summary>
+          <p>Стоимость рассчитывается по формуле: тариф × коэффициент спроса × коэффициент месторасположения. Для аптек условия определяются отдельно.</p>
+        </details>
+
+        <details>
+          <summary>Какие дополнительные расходы предусмотрены?</summary>
+          <p>Помимо арендной платы арендаторы оплачивают расходы на электроэнергию и теплоэнергию. Охрана объектов осуществляется бесплатно.</p>
+        </details>
+
+        <details>
+          <summary>Какой режим работы у торгового центра?</summary>
+          <p>ТЦ работает ежедневно с 9:00 до 19:00, без выходных.</p>
+        </details>
+
+        <details>
+          <summary>Есть ли парковка для посетителей?</summary>
+          <p>Да, для посетителей предусмотрена бесплатная парковка вместимостью до 300 автомобилей.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <div>
+          <h2>Арендуйте у нас. Торгуйте с нами.</h2>
+          <p>Разместите свой бизнес в одном из крупнейших торговых центров Новополоцка — рядом с покупателями, транспортной доступностью и бесплатной парковкой.</p>
+        </div>
+        <a class="btn" href="#apply">Оставить заявку на аренду</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Торговый центр «Стрелецкий Капитал», Новополоцк</span>
+    <div class="footer-links">
+      <a href="#about">О центре</a>
+      <a href="#shops">Магазины</a>
+      <a href="#rent">Аренда</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const shops = [
+    { name: "Остров чистоты", category: "beauty", categoryLabel: "Красота и химия", description: "Косметика, парфюмерия и бытовая химия." },
+    { name: "Мила", category: "beauty", categoryLabel: "Красота и химия", description: "Косметика, парфюмерия и бытовая химия." },
+    { name: "Пинскдрев", category: "furniture", categoryLabel: "Мебель и техника", description: "Фирменный магазин мебели." },
+    { name: "Савлуков-мебель", category: "furniture", categoryLabel: "Мебель и техника", description: "Мебель и товары для дома." },
+    { name: "Паритетбанк", category: "services", categoryLabel: "Банки и связь", description: "Банковские услуги." },
+    { name: "МТС", category: "services", categoryLabel: "Банки и связь", description: "Салон связи и мобильные услуги." },
+    { name: "Коламбия", category: "clothes", categoryLabel: "Одежда и спорт", description: "Магазин одежды." },
+    { name: "М-спорт", category: "clothes", categoryLabel: "Одежда и спорт", description: "Спортивные товары и экипировка." }
+  ];
+
+  const grid = document.getElementById('shopGrid');
+  const search = document.getElementById('shopSearch');
+  const filter = document.getElementById('shopFilter');
+  const empty = document.getElementById('emptyResult');
+
+  function renderShops() {
+    const query = search.value.trim().toLowerCase();
+    const category = filter.value;
+
+    const result = shops.filter(shop => {
+      const matchesQuery =
+        shop.name.toLowerCase().includes(query) ||
+        shop.description.toLowerCase().includes(query);
+      const matchesCategory = category === 'all' || shop.category === category;
+      return matchesQuery && matchesCategory;
+    });
+
+    grid.innerHTML = result.map(shop => `
+      <article class="shop-card">
+        <h3>${shop.name}</h3>
+        <p>${shop.description}</p>
+        <span class="shop-category">${shop.categoryLabel}</span>
+      </article>
+    `).join('');
+
+    empty.style.display = result.length ? 'none' : 'block';
+  }
+
+  search.addEventListener('input', renderShops);
+  filter.addEventListener('change', renderShops);
+  renderShops();
+
+  const burger = document.getElementById('burger');
+  const menu = document.getElementById('menu');
+
+  burger.addEventListener('click', () => menu.classList.toggle('open'));
+
+  document.querySelectorAll('#menu a').forEach(link => {
+    link.addEventListener('click', () => menu.classList.remove('open'));
+  });
+
+  document.getElementById('rentForm').addEventListener('submit', event => {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const area = document.getElementById('area').value;
+    const floor = document.getElementById('floor').value;
+    const message = document.getElementById('message').value.trim();
+
+    const text =
+      `Заявка на аренду в ТЦ «Стрелецкий Капитал»%0A%0A` +
+      `Имя: ${encodeURIComponent(name)}%0A` +
+      `Телефон: ${encodeURIComponent(phone)}%0A` +
+      `Площадь: ${encodeURIComponent(area)}%0A` +
+      `Этаж: ${encodeURIComponent(floor)}%0A` +
+      `Сообщение: ${encodeURIComponent(message || '—')}`;
+
+    window.location.href =
+      `mailto:info@arendastrelets.by?subject=${encodeURIComponent('Заявка на аренду помещения')}&body=${text}`;
+
+    document.getElementById('successMessage').style.display = 'block';
+    event.target.reset();
+  });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
